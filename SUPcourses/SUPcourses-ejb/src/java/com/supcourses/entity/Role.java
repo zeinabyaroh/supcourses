@@ -16,8 +16,8 @@ public class Role implements Serializable {
     private Integer id;
 
     @NotNull
-    @Column(name = "administrteur", nullable = false, length = 50)
-    private String administrteur;
+    @Column(name = "administrateur", nullable = false, length = 50)
+    private String administrateur;
 
     @NotNull
     @Column(name = "moderateur", nullable = false, length = 50)
@@ -35,12 +35,12 @@ public class Role implements Serializable {
         this.id = id;
     }
 
-    public String getAdministrteur() {
-        return administrteur;
+    public String getAdministrateur() {
+        return administrateur;
     }
 
-    public void setAdministrteur(String administrteur) {
-        this.administrteur = administrteur;
+    public void setAdministrateur(String administrateur) {
+        this.administrateur = administrateur;
     }
 
     public String getModerateur() {
