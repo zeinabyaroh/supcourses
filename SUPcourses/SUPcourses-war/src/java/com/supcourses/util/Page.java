@@ -1,9 +1,9 @@
 package com.supcourses.util;
 
 public enum Page {
-    accueil,
-    authentification,
-    matieres
+    ACCUEIL,
+    AUTHENTIFICATION,
+    MATIERES
     //REGISTER,
     //PROFILE
 }
